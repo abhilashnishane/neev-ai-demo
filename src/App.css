@@ -1,0 +1,114 @@
+.heading-1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+.hero-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.img-container {
+  margin-top: 100px;
+  margin-left: 40px;
+  /* border-radius: 10px; */
+}
+.img-container img {
+  width: 250px;
+  border-radius: 10px;
+}
+.report-img-con {
+  /* background-color: darkgray; */
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.report-img-con img {
+  opacity: 0;
+}
+
+.doc-img-con {
+  position: relative;
+}
+.div1 {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 50px;
+  
+  /* background-color: bisque; */
+  /* background-color: #F39E60; */
+  background-color: #89A8B2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: mymove 5s ease-in-out infinite;
+  /* animation-delay: 5s; */
+}
+@keyframes mymove {
+  from {left: 100px;}
+  to {left: 600px;}
+}
+
+.div1 div {
+  height: 10px;
+  width: 10px;
+  /* background-color: #89A8B2; */
+  background-color: #FBF8EF;
+  border-radius: 50%;
+}
+
+.neevai {
+  margin-top: 100px;
+  position: relative;
+  /* background-color: brown; */
+  background-color: rgb(96 165 250);
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.neevai-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #fff;
+}
+
+.report-img-con-2 {
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  width: 200px;
+  opacity: 0;
+  animation: mymove2 5s ease-in-out infinite;
+  animation-delay: 5s;
+}
+.report-img-con-2 img {
+  width: 100%;
+  /* background-color: darkgrey; */
+  /* opacity: 0; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+}
+@keyframes mymove2 {
+  0% {
+    left: 130px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    left: 600px;
+    opacity: 1;
+  }
+  /* from {left: 0px;}
+  to {left: 600px;} */
+}
